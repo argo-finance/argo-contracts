@@ -1,0 +1,11 @@
+hardhat.config.*
+
+.DS_Store
+node_modules/
+
+
+firebase-debug.log
+cache/
+artifacts/
+scripts/
+typechain/
