@@ -53,8 +53,8 @@ contract ArgoGenesisRewardPool {
     // The time when ARGO mining ends.
     uint256 public poolEndTime;
 
-    uint256 public argoPerSecond = 0.317 ether; // 27500 ARGO / (1h * 60min * 60s)
-    uint256 public runningTime = 24 hours;
+    uint256 public argoPerSecond = 0.1591 ether; // 27500 ARGO / (48h * 60min * 60s)
+    uint256 public runningTime = 48 hours;
     uint256 public constant TOTAL_REWARDS = 27500 ether;
 
     event Deposit(address indexed user, uint256 indexed pid, uint256 amount);
